@@ -1,7 +1,7 @@
 # Using all the skills I learned to make a project
 
 #Variable  #String
-boy_name = "Bryan"
+boy_name = "Uzoma"
 building_type = "house"
 shoe_name = "nikes"
 sound_type = "shout"
@@ -13,7 +13,6 @@ results_Bryan = int(Bryan_chance) + float(Bryan_chance2) #Float/Int Attribute #P
 Chibu_chance = input("Enter Chibus belief low Whole Numbe: ")
 Chibu_chance2 = input("Enter Chibus belief high Decimal: ")
 results_Chibu = int(Chibu_chance) + float(Chibu_chance2)
-list_pokemon = ["Gangar", "Kyogre", "Lugia", "Ho-Oh"]
 
 # Concatenation is apending another string onto another String.
 print("There once was a man named " + boy_name + ",")
@@ -31,6 +30,10 @@ building_type = "Dump"
 boy_age = 23.5 #Number
 is_upper = True #Boolean
 video_game = "Pokemon"
+list_pokemon = ["Gangar", "Kyogre", "Lugia", "Ho-Oh"]
+list_pokemon2 = ["Gangar", "Kyogre", "Lugia", "Ho-Oh"]
+list_pokemon2.append("Goldeen")
+
 print("Across the street lived a boy named, " + boy_name + ".")
 print(boy_name + " loved to play in the " + building_type + " with his close friend " + friend_name + ".")
 print(boy_name + ", is currently " + str(boy_age) + " years old and his friend " + friend_name + " is 24 years old.")
@@ -42,10 +45,6 @@ print(boy_name + " did not believe those chances and believed that " + friend_na
 print(boy_name + " had a whole list of pokemon, such as " + str(list_pokemon) + ".")
 print(friend_name + " was offended by " + boy_name + "'s estimate of him winning. ")
 print(friend_name + " insisted that only " + str(list_pokemon[2]) + " was the only pokemon that could beat him and even " + friend_name + "'s younger brother, " + friend_name.replace("Bryan", "Bryce") + ", could beat " + boy_name + ".")
+print(boy_name + " was offended and upset that " + friend_name + " would say that his brother would beat him. ")
+print(boy_name + " suggested that " + friend_name + "'s pokemon plus two more, which included " + str(list_pokemon2) + ".")
 print(boy_name.upper().isupper()) 
-
-
-
-
-
-
